@@ -1210,6 +1210,31 @@
 				reg = <0x22>;
 				gpio-controller;
 				#gpio-cells = <2>;
+				gpio-line-names =
+					"FB0_FLT_FAN_IC0",
+					"FB0_FLT_FAN_IC1",
+					"FAN_EFUSE0",
+					"FAN_EFUSE1",
+					"FAN_EFUSE2",
+					"FAN_EFUSE3",
+					"FAN_EFUSE4",
+					"FAN_EFUSE5",
+					"PRSNT_FAN0",
+					"PRSNT_FAN1",
+					"PRSNT_FAN2",
+					"PRSNT_FAN3",
+					"PRSNT_FAN4",
+					"PRSNT_FAN5",
+					"FB0_P48V_EFUSE_DETECT",
+					"FB0_ADC_DETECT",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"";
 			};
 
 			pwm@2f {
@@ -1258,6 +1283,31 @@
 				reg = <0x22>;
 				gpio-controller;
 				#gpio-cells = <2>;
+				gpio-line-names =
+					"FB1_FLT_FAN_IC0",
+					"FB1_FLT_FAN_IC1",
+					"FAN_EFUSE6",
+					"FAN_EFUSE7",
+					"FAN_EFUSE8",
+					"FAN_EFUSE9",
+					"FAN_EFUSE10",
+					"FAN_EFUSE11",
+					"PRSNT_FAN6",
+					"PRSNT_FAN7",
+					"PRSNT_FAN8",
+					"PRSNT_FAN9",
+					"PRSNT_FAN10",
+					"PRSNT_FAN11",
+					"FB1_P48V_EFUSE_DETECT",
+					"FB1_ADC_DETECT",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"";
 			};
 
 			pwm@2f {
